@@ -1,0 +1,19 @@
+{
+  "name": "rate-limiting",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "stress-test": "bash request.sh"
+  },
+  "author": "LavinRajMohan@A7Lavinraj",
+  "license": "MIT",
+  "packageManager": "pnpm@10.19.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
